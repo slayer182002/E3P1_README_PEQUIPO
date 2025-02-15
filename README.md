@@ -70,29 +70,41 @@ Se utilizará Scrum como metodología ágil para el desarrollo del sistema, aseg
 
 
 
-1. Planificación del Producto
+1. Planificación del Producto:
+
 •	Definición del Product Backlog con todas las funcionalidades necesarias.
+
 •	Priorización de tareas según valor para el usuario y viabilidad técnica.
+
 •	Asignación de roles y responsabilidades dentro del equipo.
 
 
 
 
-2. Sprints e Iteraciones
+2. Sprints e Iteraciones:
+
 •	Desarrollo en ciclos cortos de 2 a 4 semanas.
+
 •	Reuniones diarias para revisar avances y resolver impedimentos.
+
 •	Entregas incrementales para validar funcionalidades clave.
 
 
 
 
-3. Seguimiento y Control
+3. Seguimiento y Control:
+
 •	Uso de GitHub Projects como tablero Kanban para visualizar el estado de las tareas.
+
 •	Pruebas constantes para asegurar calidad y estabilidad del sistema.
+
 •	Documentación continua del código y las decisiones técnicas.
 
 
-4. Revisión y Mejora
+4. Revisión y Mejora:
+   
 •	Al final de cada sprint, revisión de lo desarrollado con los interesados.
+
 •	Identificación de áreas de mejora y ajustes en la planificación.
+
 •	Implementación de retroalimentación para optimizar el producto.
