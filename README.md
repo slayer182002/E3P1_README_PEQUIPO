@@ -6,22 +6,38 @@ Descripción
 Este proyecto consiste en el desarrollo e implementación de un sistema de monitoreo en hospitales basado en visión por computadora e inteligencia artificial para detectar el uso de mascarillas en tiempo real. Su objetivo es fortalecer las medidas de bioseguridad, reducir riesgos de contagio y facilitar la gestión de acceso y cumplimiento de normativas sanitarias.
 
 
-Integrantes del Proyecto
-•	Nombre                          Rol
-•	María del Carmen Jaime Gallardo	Desarrolladora Backend
-•	Rufino Botello Santos	          Desarrollador Frontend
-•	Lenin Jared Pantoja Guerrero	  Ingeniero de IA
-•	Sonia Itzel Vázquez Bautista	  Administradora de Proyecto
-•	José Manuel Macías García	      Especialista en Seguridad
+
+
+ 👥 Integrantes del Proyecto
+
+| Nombre                          | Rol                           |
+|---------------------------------|------------------------------|
+| María del Carmen Jaime Gallardo | Desarrolladora Backend       |
+| Rufino Botello Santos           | Desarrollador Frontend       |
+| Lenin Jared Pantoja Guerrero    | Ingeniero de IA             |
+| Sonia Itzel Vázquez Bautista    | Administradora de Proyecto  |
+| José Manuel Macías García       | Especialista en Seguridad   |
+
+
+
 
 Objetivo
 Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria.
 
-Alcance del Proyecto
+
+
+ 
+Alcance del Proyecto:
+
 •	Implementación de un sistema de visión por computadora para detectar mascarillas.
+
 •	Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
+
 •	Generación de reportes y alertas automáticas para el personal de seguridad.
+
 •	Interfaz de administración para la gestión de eventos y estadísticas.
+
+
 
 
 Requerimientos Funcionales
@@ -36,6 +52,8 @@ Requerimientos Funcionales
 9.	Registro de eventos históricos, permitiendo revisar incidentes pasados.
 
 
+
+
 Requerimientos No Funcionales
 1.	Protección de datos personales, garantizando que las imágenes capturadas se almacenen y procesen de manera segura.
 2.	Acceso restringido al sistema, con autenticación para administradores y personal autorizado.
@@ -44,8 +62,12 @@ Requerimientos No Funcionales
 5.	Disponibilidad de API para integrarse con otros sistemas de gestión de seguridad.
 
 
+
+
 Metodología de Desarrollo
 Se utilizará Scrum como metodología ágil para el desarrollo del sistema, asegurando flexibilidad y adaptabilidad a los requerimientos del hospital. El desarrollo se estructurará en los siguientes procesos:
+
+
 
 
 1. Planificación del Producto
@@ -54,10 +76,14 @@ Se utilizará Scrum como metodología ágil para el desarrollo del sistema, aseg
 •	Asignación de roles y responsabilidades dentro del equipo.
 
 
+
+
 2. Sprints e Iteraciones
 •	Desarrollo en ciclos cortos de 2 a 4 semanas.
 •	Reuniones diarias para revisar avances y resolver impedimentos.
 •	Entregas incrementales para validar funcionalidades clave.
+
+
 
 
 3. Seguimiento y Control
