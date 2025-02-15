@@ -7,12 +7,12 @@ Este proyecto consiste en el desarrollo e implementación de un sistema de monit
 
 
 Integrantes del Proyecto
-Nombre                          Rol
-María del Carmen Jaime Gallardo	Desarrolladora Backend
-Rufino Botello Santos	          Desarrollador Frontend
-Lenin Jared Pantoja Guerrero	  Ingeniero de IA
-Sonia Itzel Vázquez Bautista	  Administradora de Proyecto
-José Manuel Macías García	      Especialista en Seguridad
+•	Nombre                          Rol
+•	María del Carmen Jaime Gallardo	Desarrolladora Backend
+•	Rufino Botello Santos	          Desarrollador Frontend
+•	Lenin Jared Pantoja Guerrero	  Ingeniero de IA
+•	Sonia Itzel Vázquez Bautista	  Administradora de Proyecto
+•	José Manuel Macías García	      Especialista en Seguridad
 
 Objetivo
 Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria.
