@@ -105,8 +105,8 @@ Implementación de retroalimentación para optimizar el producto.
 [Monitoreo y Detección](dosc/monitoreo_y_deteccion.md)  
 
 
-[Gestión y Administración](dosc/gestion_y_administracion)  
+[Gestión y Administración](dosc/gestion_y_administracion.md)  
 
 
-[Notificación y Respuesta](dosc/notificacion_y_respuesta)  
+[Notificación y Respuesta](dosc/notificacion_y_respuesta.md)  
 
