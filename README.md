@@ -5,7 +5,7 @@ Sistema Inteligente de Monitoreo en Hospitales
 Descripción
 Este proyecto consiste en el desarrollo e implementación de un sistema de monitoreo en hospitales basado en visión por computadora e inteligencia artificial para detectar el uso de mascarillas en tiempo real. Su objetivo es fortalecer las medidas de bioseguridad, reducir riesgos de contagio y facilitar la gestión de acceso y cumplimiento de normativas sanitarias.
 
-
+El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento de imágenes, así como algoritmos de aprendizaje profundo para mejorar la precisión en la detección de mascarillas. Además, se integrará con cámaras de seguridad hospitalarias y un panel de administración para monitoreo en tiempo real.
 
 
  👥 Integrantes del Proyecto
@@ -22,21 +22,21 @@ Este proyecto consiste en el desarrollo e implementación de un sistema de monit
 
 
 Objetivo
-Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria.
-
+Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
 
 
  
 Alcance del Proyecto:
 
-•	Implementación de un sistema de visión por computadora para detectar mascarillas.
+Implementación de un sistema de visión por computadora para detectar mascarillas.
 
-•	Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
+Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
 
-•	Generación de reportes y alertas automáticas para el personal de seguridad.
+Generación de reportes y alertas automáticas para el personal de seguridad.
 
-•	Interfaz de administración para la gestión de eventos y estadísticas.
+Desarrollo de una interfaz de administración para la gestión de eventos y estadísticas.
 
+Análisis de patrones en el uso de mascarillas para mejorar estrategias de seguridad.
 
 
 
@@ -65,46 +65,36 @@ Requerimientos No Funcionales
 
 
 Metodología de Desarrollo
-Se utilizará Scrum como metodología ágil para el desarrollo del sistema, asegurando flexibilidad y adaptabilidad a los requerimientos del hospital. El desarrollo se estructurará en los siguientes procesos:
+Se empleará la metodología ágil Scrum, estructurada en los siguientes procesos:
 
+1. Planificación del Producto
 
+Definición del Product Backlog con todas las funcionalidades necesarias.
 
+Priorización de tareas según valor para el usuario y viabilidad técnica.
 
-1. Planificación del Producto:
+Asignación de roles y responsabilidades dentro del equipo.
 
-•	Definición del Product Backlog con todas las funcionalidades necesarias.
+2. Sprints e Iteraciones
 
-•	Priorización de tareas según valor para el usuario y viabilidad técnica.
+Desarrollo en ciclos cortos de 2 a 4 semanas.
 
-•	Asignación de roles y responsabilidades dentro del equipo.
+Reuniones diarias para revisar avances y resolver impedimentos.
 
+Entregas incrementales para validar funcionalidades clave.
 
+3. Seguimiento y Control
 
+Uso de GitHub Projects como tablero Kanban.
 
-2. Sprints e Iteraciones:
+Pruebas constantes para asegurar calidad y estabilidad del sistema.
 
-•	Desarrollo en ciclos cortos de 2 a 4 semanas.
+Documentación continua del código y decisiones técnicas.
 
-•	Reuniones diarias para revisar avances y resolver impedimentos.
+4. Revisión y Mejora
 
-•	Entregas incrementales para validar funcionalidades clave.
+Revisión del producto con los interesados al final de cada sprint.
 
+Identificación de mejoras y ajustes en la planificación.
 
-
-
-3. Seguimiento y Control:
-
-•	Uso de GitHub Projects como tablero Kanban para visualizar el estado de las tareas.
-
-•	Pruebas constantes para asegurar calidad y estabilidad del sistema.
-
-•	Documentación continua del código y las decisiones técnicas.
-
-
-4. Revisión y Mejora:
-   
-•	Al final de cada sprint, revisión de lo desarrollado con los interesados.
-
-•	Identificación de áreas de mejora y ajustes en la planificación.
-
-•	Implementación de retroalimentación para optimizar el producto.
+Implementación de retroalimentación para optimizar el producto.
