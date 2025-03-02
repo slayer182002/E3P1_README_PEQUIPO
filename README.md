@@ -103,19 +103,19 @@ Implementación de retroalimentación para optimizar el producto.
 ##  Diagrama de Caso de Uso: Monitoreo y Detección  
 Este diagrama representa el flujo principal del sistema de monitoreo basado en visión por computadora, encargado de detectar en tiempo real el uso de mascarillas en hospitales. Inicia con la captura de imágenes a través de cámaras de seguridad, seguida del análisis por parte del sistema de inteligencia artificial (IA) para determinar si una persona usa mascarilla. En caso de que el sistema detecte la ausencia de una mascarilla, se genera una alerta automática y se almacena el evento en la base de datos para su posterior análisis.  
 
-![Diagrama de Caso de Uso - Monitoreo y Detección](img/img1)  
+![Diagrama de Caso de Uso - Monitoreo y Detección](img/img1.jpg)  
 
 
 
 ##  Diagrama de Caso de Uso: Gestión y Administración  
 Este diagrama describe las interacciones del administrador con el sistema de monitoreo. A través de una interfaz de administración, los responsables pueden acceder al sistema con credenciales, configurar parámetros como la sensibilidad del modelo de detección y consultar los registros de detecciones almacenados en la base de datos. También pueden generar reportes para evaluar el cumplimiento de las normativas sanitarias e incluso excluir a ciertos empleados o personal autorizado del sistema de detección, asegurando una gestión flexible y eficiente del monitoreo.
 
-![Diagrama de Caso de Uso - Gestión y Administración](img/img2)  
+![Diagrama de Caso de Uso - Gestión y Administración](img/img2.jpg)  
 
 
 
 ##  Diagrama de Caso de Uso: Notificación y Respuesta  
 Este diagrama muestra el proceso de notificación y respuesta ante eventos de detección de personas sin mascarilla. Cuando el sistema de monitoreo identifica un caso, se activa el sistema de alertas para generar una notificación visual o sonora en la entrada del hospital. Simultáneamente, se envía una notificación al personal de seguridad para que tomen las acciones correspondientes. El personal de seguridad también puede registrar su respuesta en el sistema, lo que permite llevar un historial de incidentes y evaluar la efectividad de las medidas de seguridad implementadas. 
 
-![Diagrama de Caso de Uso - Notificación y Respuesta](img/img3)  
+![Diagrama de Caso de Uso - Notificación y Respuesta](img/img3.jpg)  
 
