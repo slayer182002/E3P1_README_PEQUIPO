@@ -2,7 +2,7 @@
 
 Sistema Inteligente de Monitoreo en Hospitales
 
-Descripción
+Descripción:
 Este proyecto consiste en el desarrollo e implementación de un sistema de monitoreo en hospitales basado en visión por computadora e inteligencia artificial para detectar el uso de mascarillas en tiempo real. Su objetivo es fortalecer las medidas de bioseguridad, reducir riesgos de contagio y facilitar la gestión de acceso y cumplimiento de normativas sanitarias.
 
 El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento de imágenes, así como algoritmos de aprendizaje profundo para mejorar la precisión en la detección de mascarillas. Además, se integrará con cámaras de seguridad hospitalarias y un panel de administración para monitoreo en tiempo real.
@@ -12,7 +12,7 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 
 | Nombre                          | Rol                           |
 |---------------------------------|------------------------------|
-| María del Carmen Jaime Gallardo | Desarrolladora Backend       |
+| Maria del Carmen Jaime Gallardo | Desarrolladora Backend       |
 | Rufino Botello Santos           | Desarrollador Frontend       |
 | Lenin Jared Pantoja Guerrero    | Ingeniero de IA             |
 | Sonia Itzel Vázquez Bautista    | Administradora de Proyecto  |
@@ -28,16 +28,15 @@ Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de ma
  
 Alcance del Proyecto:
 
-Implementación de un sistema de visión por computadora para detectar mascarillas.
+•	Implementación de un sistema de visión por computadora para detectar mascarillas.
 
-Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
+•	Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
 
-Generación de reportes y alertas automáticas para el personal de seguridad.
+•	Generación de reportes y alertas automáticas para el personal de seguridad.
 
-Desarrollo de una interfaz de administración para la gestión de eventos y estadísticas.
+•	Desarrollo de una interfaz de administración para la gestión de eventos y estadísticas.
 
-Análisis de patrones en el uso de mascarillas para mejorar estrategias de seguridad.
-
+•	Análisis de patrones en el uso de mascarillas para mejorar estrategias de seguridad.
 
 
 Requerimientos Funcionales
