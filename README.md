@@ -153,12 +153,13 @@ Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utiliz
 •	Logging con ELK Stack (Elasticsearch, Logstash, Kibana): Para el análisis de registros y diagnóstico de errores.
 
 •	CI/CD con GitHub Actions o Jenkins: Automatización de pruebas y despliegues.
+---
 
-## 1. Plan de Pruebas  
+##  Plan de Pruebas  
 
 El plan de pruebas se diseña para garantizar que el sistema funcione de manera efectiva en diferentes condiciones. Se han definido varios tipos de pruebas para evaluar su desempeño.  
 
-### 1.1 Pruebas Funcionales  
+###  Pruebas Funcionales  
 
 Se verificará que el sistema cumpla con sus funcionalidades principales.  
 
@@ -172,7 +173,7 @@ Se verificará que el sistema cumpla con sus funcionalidades principales.
 -  Verificar que el sistema emite una alerta cuando alguien se quita el cubrebocas.  
 - Comprobar que las notificaciones se envían correctamente a los dispositivos o sistemas administrativos del hospital.  
 
-### 1.2 Pruebas de Rendimiento  
+###  Pruebas de Rendimiento  
 
 Se evaluará la velocidad y capacidad del sistema en distintas condiciones.  
 
@@ -184,7 +185,7 @@ Se evaluará la velocidad y capacidad del sistema en distintas condiciones.
 -  Probar el sistema con diferentes resoluciones de video.  
 -  Analizar el consumo de CPU y memoria en distintos dispositivos (servidores, computadoras locales).  
 
-### 1.3 Pruebas de Seguridad  
+###  Pruebas de Seguridad  
 
 Se validará la protección de los datos recopilados.  
 
@@ -195,7 +196,7 @@ Se validará la protección de los datos recopilados.
 #### Protección contra manipulación  
 -  Simular intentos de interferencia en la detección (imágenes falsas, uso de fotos en lugar de rostros reales).  
 
-### 1.4 Pruebas de Usabilidad  
+###  Pruebas de Usabilidad  
 
 Se analizará la facilidad de uso del sistema.  
 
@@ -203,11 +204,11 @@ Se analizará la facilidad de uso del sistema.
 -  Evaluar la claridad de la interfaz para los operadores del hospital.  
 -  Comprobar si el sistema puede configurarse sin conocimientos técnicos avanzados.  
 
-## 2. Escalabilidad y Futuro del Proyecto  
+##  Escalabilidad y Futuro del Proyecto  
 
  El sistema debe ser adaptable y crecer conforme aumenten las necesidades del hospital.  
 
-### 2.1 Expansión del Sistema  
+###  Expansión del Sistema  
 
 #### Soporte para múltiples cámaras  
 - Permitir que varias cámaras trabajen en conjunto para cubrir más áreas del hospital.  
@@ -218,7 +219,7 @@ Se analizará la facilidad de uso del sistema.
 #### Compatibilidad con diferentes dispositivos  
 - Desarrollar una aplicación móvil para que el personal de seguridad reciba alertas en tiempo real.  
 
-### 2.2 Optimización del Algoritmo  
+### Optimización del Algoritmo  
 
 #### Mejoras en el reconocimiento  
 - Implementar inteligencia artificial más avanzada para reducir falsos positivos y negativos.  
@@ -226,7 +227,7 @@ Se analizará la facilidad de uso del sistema.
 #### Reducción del consumo de recursos  
 - Optimizar el código para que el sistema funcione en hardware de menor costo sin afectar la precisión.  
 
-### 2.3 Posible Expansión a Otras Áreas  
+### Posible Expansión a Otras Áreas  
 
 #### Escuelas y universidades  
 - Aplicar el sistema en instituciones educativas para garantizar el cumplimiento de medidas sanitarias.  
