@@ -154,7 +154,88 @@ Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utiliz
 
 •	CI/CD con GitHub Actions o Jenkins: Automatización de pruebas y despliegues.
 
+## 1. Plan de Pruebas  
 
+El plan de pruebas se diseña para garantizar que el sistema funcione de manera efectiva en diferentes condiciones. Se han definido varios tipos de pruebas para evaluar su desempeño.  
+
+### 1.1 Pruebas Funcionales  
+
+Se verificará que el sistema cumpla con sus funcionalidades principales.  
+
+#### Detección de cubrebocas  
+-  Comprobar si el sistema detecta correctamente cuando una persona lleva cubrebocas.  
+-  Comprobar si el sistema detecta correctamente cuando una persona se lo quita.  
+-  Evaluar si el sistema reconoce correctamente diferentes tipos de cubrebocas (quirúrgicos, KN95, de tela).  
+-  Probar detecciones en distintos ángulos y distancias de la cámara.  
+
+#### Alertas y notificaciones  
+-  Verificar que el sistema emite una alerta cuando alguien se quita el cubrebocas.  
+- Comprobar que las notificaciones se envían correctamente a los dispositivos o sistemas administrativos del hospital.  
+
+### 1.2 Pruebas de Rendimiento  
+
+Se evaluará la velocidad y capacidad del sistema en distintas condiciones.  
+
+#### Tiempo de respuesta  
+-  Medir el tiempo que tarda el sistema en detectar la ausencia del cubrebocas y activar la alerta.  
+-  Evaluar el rendimiento con múltiples personas en el encuadre de la cámara.  
+
+#### Capacidad de procesamiento  
+-  Probar el sistema con diferentes resoluciones de video.  
+-  Analizar el consumo de CPU y memoria en distintos dispositivos (servidores, computadoras locales).  
+
+### 1.3 Pruebas de Seguridad  
+
+Se validará la protección de los datos recopilados.  
+
+#### Privacidad de la información  
+-  Comprobar que las imágenes o videos solo se almacenen si es necesario.  
+-  Verificar que solo el personal autorizado pueda acceder a los registros del sistema.  
+
+#### Protección contra manipulación  
+-  Simular intentos de interferencia en la detección (imágenes falsas, uso de fotos en lugar de rostros reales).  
+
+### 1.4 Pruebas de Usabilidad  
+
+Se analizará la facilidad de uso del sistema.  
+
+#### Interfaz de usuario  
+-  Evaluar la claridad de la interfaz para los operadores del hospital.  
+-  Comprobar si el sistema puede configurarse sin conocimientos técnicos avanzados.  
+
+## 2. Escalabilidad y Futuro del Proyecto  
+
+ El sistema debe ser adaptable y crecer conforme aumenten las necesidades del hospital.  
+
+### 2.1 Expansión del Sistema  
+
+#### Soporte para múltiples cámaras  
+- Permitir que varias cámaras trabajen en conjunto para cubrir más áreas del hospital.  
+
+#### Integración con sistemas hospitalarios  
+- Conectar el sistema con otros sistemas de seguridad o administración del hospital para optimizar su funcionamiento.  
+
+#### Compatibilidad con diferentes dispositivos  
+- Desarrollar una aplicación móvil para que el personal de seguridad reciba alertas en tiempo real.  
+
+### 2.2 Optimización del Algoritmo  
+
+#### Mejoras en el reconocimiento  
+- Implementar inteligencia artificial más avanzada para reducir falsos positivos y negativos.  
+
+#### Reducción del consumo de recursos  
+- Optimizar el código para que el sistema funcione en hardware de menor costo sin afectar la precisión.  
+
+### 2.3 Posible Expansión a Otras Áreas  
+
+#### Escuelas y universidades  
+- Aplicar el sistema en instituciones educativas para garantizar el cumplimiento de medidas sanitarias.  
+
+#### Transporte público  
+- Implementar cámaras en estaciones de tren o autobuses para monitorear el uso de cubrebocas.  
+
+#### Empresas y fábricas  
+- Utilizar el sistema en entornos industriales para garantizar la seguridad en espacios cerrados.
 ---
 
 ####          Diagrama de Caso de Uso: 
@@ -165,4 +246,5 @@ Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utiliz
 
 
 [Notificación y Respuesta](dosc/notificacion_y_respuesta.md)  
+           
 
