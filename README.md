@@ -98,8 +98,11 @@ Identificación de mejoras y ajustes en la planificación.
 Implementación de retroalimentación para optimizar el producto.
 
  ####  Tecnologías Utilizadas
+ 
 Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utilizarán las siguientes tecnologías:
+
 #### Visión por Computadora e Inteligencia Artificial
+
 •	OpenCV: Para el procesamiento de imágenes en tiempo real y detección de rostros.
 
 •	TensorFlow/Keras: Implementación de modelos de deep learning para la clasificación de imágenes y detección de mascarillas.
@@ -125,7 +128,9 @@ Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utiliz
 •	WebSockets (Socket.io o FastAPI WebSockets): Comunicación en tiempo real entre el sistema de detección y la interfaz de administración.
 
 #### Infraestructura y Despliegue
+
 ## Servidores y Computación en la Nube
+
 •	Google Cloud Platform (GCP), AWS o Azure: Para el despliegue del sistema y procesamiento de datos en la nube.
 
 •	Docker y Kubernetes: Para la orquestación y despliegue de contenedores en un entorno escalable.
@@ -133,13 +138,16 @@ Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utiliz
 •	NVIDIA GPU Cloud (NGC) o servidores con GPUs: Para acelerar el entrenamiento y la inferencia de modelos de IA.
 
 ## Seguridad y Protección de Datos
+
 •	Cifrado de datos (AES-256, TLS/SSL): Para proteger la información de detecciones y accesos.
 
 •	Autenticación JWT (JSON Web Tokens): Para el control de acceso al sistema.
 
 •	Reglamentos de privacidad (GDPR, HIPAA): Cumplimiento con normativas de protección de datos hospitalarios.
 
+
 ## Monitoreo y Mantenimiento
+
 •	Prometheus y Grafana: Para el monitoreo del sistema en tiempo real.
 
 •	Logging con ELK Stack (Elasticsearch, Logstash, Kibana): Para el análisis de registros y diagnóstico de errores.
