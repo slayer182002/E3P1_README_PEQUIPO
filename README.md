@@ -20,7 +20,6 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 
 
 
-
 Objetivo
 Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
 
@@ -97,6 +96,38 @@ Revisión del producto con los interesados al final de cada sprint.
 Identificación de mejoras y ajustes en la planificación.
 
 Implementación de retroalimentación para optimizar el producto.
+
+ ####  Tecnologías Utilizadas
+Para el desarrollo del Sistema Inteligente de Monitoreo en Hospitales, se utilizarán las siguientes tecnologías:
+#### Visión por Computadora e Inteligencia Artificial
+•	OpenCV: Para el procesamiento de imágenes en tiempo real y detección de rostros.
+•	TensorFlow/Keras: Implementación de modelos de deep learning para la clasificación de imágenes y detección de mascarillas.
+•	YOLO (You Only Look Once) o MobileNetV2: Modelos optimizados para detección rápida y eficiente de mascarillas en entornos hospitalarios.
+•	Python: Lenguaje principal para el desarrollo de scripts de IA y procesamiento de imágenes.
+#### Backend
+•	Flask o FastAPI: Framework para desarrollar la API que gestionará la comunicación entre el sistema de detección y la interfaz de usuario.
+•	PostgreSQL o MongoDB: Base de datos para almacenar registros de detecciones, imágenes y eventos.
+•	Redis: Para el manejo de eventos en tiempo real y caché de datos.
+#### Frontend
+•	React.js: Para el desarrollo de una interfaz de administración moderna y responsiva.
+•	Material-UI o TailwindCSS: Librerías para mejorar la experiencia de usuario con componentes estilizados.
+#### Notificaciones y Alertas
+•	Twilio o Firebase Cloud Messaging (FCM): Para el envío de notificaciones al personal de seguridad.
+•	WebSockets (Socket.io o FastAPI WebSockets): Comunicación en tiempo real entre el sistema de detección y la interfaz de administración.
+#### Infraestructura y Despliegue
+## Servidores y Computación en la Nube
+•	Google Cloud Platform (GCP), AWS o Azure: Para el despliegue del sistema y procesamiento de datos en la nube.
+•	Docker y Kubernetes: Para la orquestación y despliegue de contenedores en un entorno escalable.
+•	NVIDIA GPU Cloud (NGC) o servidores con GPUs: Para acelerar el entrenamiento y la inferencia de modelos de IA.
+## Seguridad y Protección de Datos
+•	Cifrado de datos (AES-256, TLS/SSL): Para proteger la información de detecciones y accesos.
+•	Autenticación JWT (JSON Web Tokens): Para el control de acceso al sistema.
+•	Reglamentos de privacidad (GDPR, HIPAA): Cumplimiento con normativas de protección de datos hospitalarios.
+## Monitoreo y Mantenimiento
+•	Prometheus y Grafana: Para el monitoreo del sistema en tiempo real.
+•	Logging con ELK Stack (Elasticsearch, Logstash, Kibana): Para el análisis de registros y diagnóstico de errores.
+•	CI/CD con GitHub Actions o Jenkins: Automatización de pruebas y despliegues.
+
 
 ---
 
