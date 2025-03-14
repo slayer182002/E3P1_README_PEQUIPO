@@ -20,7 +20,8 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 
 
 
-Objetivo
+Objetivo:
+
 Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
 
 
