@@ -21,12 +21,13 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 
 
 Objetivo:
+---
 
 Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
 
 
  
-Alcance del Proyecto:
+#### Alcance del Proyecto:
 
 •	Implementación de un sistema de visión por computadora para detectar mascarillas.
 
@@ -39,7 +40,7 @@ Alcance del Proyecto:
 •	Análisis de patrones en el uso de mascarillas para mejorar estrategias de seguridad.
 
 
-Requerimientos Funcionales
+### Requerimientos Funcionales
 1.	Captura de imágenes en tiempo real mediante cámaras de seguridad en los accesos y áreas clave del hospital.
 2.	Procesamiento de imágenes usando diferentes técnicas para identificar si una persona lleva puesta una mascarilla.
 3.	Generación de alertas en caso de detección de personas sin mascarilla.
@@ -53,7 +54,7 @@ Requerimientos Funcionales
 
 
 
-Requerimientos No Funcionales
+### Requerimientos No Funcionales
 1.	Protección de datos personales, garantizando que las imágenes capturadas se almacenen y procesen de manera segura.
 2.	Acceso restringido al sistema, con autenticación para administradores y personal autorizado.
 3.	Registro y monitoreo del sistema para identificar posibles fallos o mejoras.
@@ -63,7 +64,8 @@ Requerimientos No Funcionales
 
 
 
-Metodología de Desarrollo
+### Metodología de Desarrollo
+
 Se empleará la metodología ágil Scrum, estructurada en los siguientes procesos:
 
 1. Planificación del Producto
