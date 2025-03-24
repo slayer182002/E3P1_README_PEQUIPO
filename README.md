@@ -3,9 +3,11 @@
 Sistema Inteligente de Monitoreo para detección de Cubre bocas
 
 Descripción:
-Este proyecto consiste en el desarrollo e implementación de un sistema de reconocimiento facial en lugares  basado en visión por computadora e inteligencia artificial para detectar el uso de mascarillas en tiempo real. Su objetivo es fortalecer las medidas de bioseguridad, reducir riesgos de contagio y facilitar la gestión de acceso y cumplimiento de normativas sanitarias.
+Este proyecto consiste en el desarrollo e implementación de un sistema de monitoreo inteligente basado en reconocimiento facial, enfocado en la detección automática del uso de cubrebocas en entornos de alta seguridad, como hospitales, laboratorios y empresas del sector alimentario. El objetivo principal es fortalecer las medidas de bioseguridad, reduciendo el riesgo de contagio de enfermedades respiratorias y asegurando el cumplimiento de normativas sanitarias establecidas.
 
-El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento de imágenes, así como algoritmos de aprendizaje profundo para mejorar la precisión en la detección de mascarillas. Además, se integrará con cámaras de seguridad hospitalarias y un panel de administración para monitoreo en tiempo real.
+El sistema utiliza técnicas de visión por computadora y algoritmos de inteligencia artificial para identificar si las personas que ingresan o transitan por las instalaciones llevan cubrebocas de manera correcta. Además, puede integrarse con sistemas de control de acceso para restringir la entrada a quienes no cumplan con esta medida, y generar reportes en tiempo real para la administración y gestión eficiente de la seguridad sanitaria.
+
+El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento de imágenes, para mejorar la precisión en la detección de mascarillas. Además, se integrará con cámaras de seguridad y un panel de administración para monitoreo en tiempo real.
 
 
  👥 Integrantes del Proyecto
@@ -23,7 +25,7 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 Objetivo:
 ---
 
-Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas en hospitales y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
+Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de mascarillas y generar alertas automáticas para mejorar la seguridad sanitaria. Se busca alcanzar una tasa de detección superior al 95% y reducir los incidentes de no uso de mascarilla en un 50% dentro de las áreas monitoreadas.
 
 
  
@@ -31,7 +33,7 @@ Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de ma
 
 •	Implementación de un sistema de visión por computadora para detectar mascarillas.
 
-•	Integración con cámaras de seguridad en los accesos y áreas clave del hospital.
+•	Integración con cámaras de seguridad en los accesos y áreas clave.
 
 •	Generación de reportes y alertas automáticas para el personal de seguridad.
 
