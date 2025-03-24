@@ -41,7 +41,7 @@ Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de ma
 
 
 ### Requerimientos Funcionales
-1.	Captura de imágenes en tiempo real mediante cámaras de seguridad en los accesos y áreas clave del hospital.
+1.	El sistema permite la captura de imágenes en tiempo real mediante cámaras de seguridad en los accesos y áreas clave del hospital.
 2.	Procesamiento de imágenes usando diferentes técnicas para identificar si una persona lleva puesta una mascarilla.
 3.	Generación de alertas en caso de detección de personas sin mascarilla.
 4.	Registro de detecciones, almacenando imágenes, fecha, hora y ubicación del evento.
