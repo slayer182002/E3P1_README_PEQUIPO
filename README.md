@@ -43,16 +43,23 @@ Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de ma
 
 
 ### Requerimientos Funcionales
-1.	El sistema debe permitir la captura de imágenes en tiempo real mediante cámaras de seguridad en los accesos y áreas clave del hospital.
-2.	Procesamiento de imágenes usando diferentes técnicas para identificar si una persona lleva puesta una mascarilla.
-3.	Generación de alertas en caso de detección de personas sin mascarilla.
-4.	Registro de detecciones, almacenando imágenes, fecha, hora y ubicación del evento.
-5.	Notificación visual y/o sonora en la entrada del hospital cuando se detecte una persona sin mascarilla.
-6.	Envío de alertas al personal de seguridad mediante una aplicación o software de monitoreo.
-7.	Integración con un panel de administración, donde los gerentes puedan visualizar reportes y estadísticas.
-8.	Ajuste de sensibilidad del reconocimiento para reducir falsos positivos y negativos.
-9.	Registro de eventos históricos, permitiendo revisar incidentes pasados.
+•	El sistema debe ser capaz de identificar en tiempo real si una persona lleva puesto el cubrebocas de manera correcta mediante algoritmos de visión por computadora e inteligencia artificial.
+•	Debe alcanzar una tasa de detección superior al 95%.
+•	En caso de detectar a una persona sin cubrebocas o con un uso incorrecto, se debe generar una alerta visual y/o sonora.
+•	El sistema debe poder integrarse con sistemas de control de acceso para permitir o restringir la entrada según el uso adecuado del cubrebocas.
+•	Debe registrar los intentos de acceso fallidos debido a la ausencia o uso incorrecto del cubrebocas.
+•	La aplicación debe mostrar en una interfaz gráfica el estado de detección de cubrebocas en tiempo real.
+•	Debe permitir la conexión con múltiples cámaras de seguridad en diferentes ubicaciones dentro de las instalaciones.
+•	Los operadores de seguridad deben poder visualizar eventos críticos en una consola de monitoreo.
+•	El sistema debe generar reportes automáticos sobre el cumplimiento del uso de cubrebocas.
+•	Los reportes deben incluir fechas, horas, ubicaciones y frecuencia de incidentes detectados.
+•	Se debe permitir la exportación de reportes en formatos PDF y CSV para análisis posterior.
+•	Se debe desarrollar una interfaz de administración accesible solo para usuarios autorizados.
+•	Debe permitir la configuración de parámetros como la sensibilidad del reconocimiento facial y el tipo de alertas generadas.
+•	Se debe contar con un sistema de roles y permisos para garantizar el acceso seguro a la información.
+•	El sistema debe enviar notificaciones automáticas al personal de seguridad en caso de detectar incumplimientos.
 
+*A continuación se muestra el link de los diagramas*
 
 ####          Diagrama de Caso de Uso: 
 [Monitoreo y Detección](dosc/monitoreo_y_deteccion.md)  
