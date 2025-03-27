@@ -72,7 +72,9 @@ Desarrollar un sistema inteligente capaz de detectar en tiempo real el uso de ma
 [Monitoreo y Detección](dosc/monitoreo_y_deteccion.md)  
 
 
-[Diagrama de clases](dosc/Diagrama de clases.md)  
+
+![Diagrama de clases](https://github.com/user-attachments/assets/0879c821-c84c-443c-8542-b41c0e235c27)
+
 
 
 [Notificación y Respuesta](dosc/notificacion_y_respuesta.md)  
