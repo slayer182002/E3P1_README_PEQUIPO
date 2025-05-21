@@ -10,7 +10,8 @@ El sistema empleará tecnologías como OpenCV y TensorFlow para el procesamiento
 Además, se integrará con cámaras de seguridad y un panel de administración para monitoreo en tiempo real.
 
 👥 Integrantes del Proyecto
-Nombre	Rol
+
+Nombre	                               Rol
 
 Maria del Carmen Jaime Gallardo	Desarrolladora Backend
 
